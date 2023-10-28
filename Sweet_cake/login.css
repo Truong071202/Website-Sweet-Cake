@@ -1,0 +1,18 @@
+/* .table > :not(:first-child) {
+    border-top: none !important;
+  }
+  
+  .bt-5 {
+    border-top-width: 5px;
+  }
+  
+  .required::after {
+    content: "*";
+    color: red;
+    margin-left: 3px;
+  }
+   */
+
+body{
+    background-image: url('./img/60442483-tasty-cakes-seamless-pattern-cream-food-background-bakery-sticker-and-wrap-print-and-fabric-candy.jpg') ;
+}

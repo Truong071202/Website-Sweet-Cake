@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+/* nav */
+.nav-link-web {
+    text-decoration: none;
+    position: relative;
+  }
+  
+.nav-link-web::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 0;
+    height: 2px;
+    background-color: #2d2b2b;
+    transition: width 0.3s ease-in-out;
+}
+  
+.nav-link-web:hover::after {
+    width: 100%;
+}
+
+
+
+.img-shoes-banner{
+    opacity: 1;
+    transition: transform 0.3s ease;
+}
+
+  
+.img-shoes-banner:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+.view-products:hover{
+    color: red!important;
+}
+
+.heading-card{
+    font-family: initial!important;
+}
+
+.heading-text{
+    font-family: auto!important;
+}
+
+.heading-under{
+    letter-spacing: 2px;
+    font-size: 14px ;
+}
+
+.text-descrip{
+    font-size: 14px!important;
+    font-family: serif;
+}
+
+
+.img-card-homepage{
+    transition: opacity 0.5s;
+}
+.img-card-homepage:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.product-price{
+    font-size: 13px;
+    text-align: center!important;
+}
+
+.button-buy{
+    text-align: center;
+}
+
+.buy-btn{
+    /* border-radius: 10px; */
+    padding: 4px;
+    
+}
+
+.buy-btn:hover{
+    background-color: #916841;
+    box-shadow: 12px;
+    color: white;
+}
+
+.btn-buy-card:hover{
+    color: white!important;
+}
+
+.inf-cpn{
+    font-size: 13px;
+}
+
+.product-name{
+    letter-spacing: 2px;
+    color: rgb(44, 44, 50);
+}
+
+.product-money{
+    letter-spacing: 1px;
+}
+
+.size-num{
+    border: 1px silver solid;
+    padding: 5px 7px;
+}
+
+.size-num:hover{
+    border: 1px blue solid;
+    cursor: pointer;
+}
+
+.size-num:target{
+    background-color:lightseagreen ;
+    color: white;
+}
+
+.color-img-product{
+    border: 1px silver solid;
+}
+
+.btn-product{
+    padding: 6px;
+    height: 70px;
+    width: 333px;
+    border-radius: 20px!important;
+    margin: 0 auto;
+}
+
+.btn-product:hover{
+    background-color: #916841!important;
+    color: white!important;
+    cursor: pointer;
+}
+
+.btn-link-product:hover{
+    background-color: #916841;
+    color: white;
+}
+
+.back-link{
+    text-align: center;
+    /* border: 1px black solid; */
+    text-decoration: none;
+}
+
+.color-img-product:hover{
+    border: 1px blue solid;
+    cursor: pointer;
+}
+
+#carouselExampleAutoplaying{
+    margin: 0 8rem;
+}
+
+.link-des-pd:hover{
+    text-decoration: underline;
+}
